@@ -1,0 +1,8 @@
+# cityscapes.yaml
+
+path: C:/projects/YOLOv11_cityscapes  # Root directory of the dataset
+train: "C:/projects/YOLOv11_cityscapes/images/train"  # Path to the training images
+val: "C:/projects/YOLOv11_cityscapes/images/val"     # Path to the validation images
+
+nc: 8  # Number of classes (update this based on your dataset)
+names: ['person', 'car', 'train', 'rider', 'bicycle', 'motorcycle', 'bus', 'truck']
